@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@swapi-angular/swapi-people-feature-people": [
+        "libs/swapi/people/feature-people/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
